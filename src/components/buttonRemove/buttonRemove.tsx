@@ -6,7 +6,7 @@ interface IButtonRemoveProps {
 
 function ButtonRemove({ onClick }: IButtonRemoveProps) {
   return (
-    <button className={styles.button} onClick={onClick}>
+    <button className={styles.button} onClick={onClick} data-remove-button>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="200"

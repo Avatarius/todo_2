@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.item:hover button[data-remove-button] {
+  opacity: 1;
+}
+
 .text {
   text-overflow: ellipsis;
   white-space: nowrap;

@@ -10,6 +10,8 @@
   translate: 0 -50%;
   color: rgba(0 0 0 / 0.5);
   @include button;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .svg {
