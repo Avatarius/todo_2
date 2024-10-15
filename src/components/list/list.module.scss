@@ -2,10 +2,20 @@
   display: flex;
   flex-direction: column;
   font-size: 30px;
+  min-inline-size: 500px;
   max-inline-size: 402px;
-  min-block-size: 500px;
+  block-size: 550px;
+  overflow-y: auto;
 }
 
+.list::-webkit-scrollbar {
+  inline-size: 6px;
+  margin-left: 31px;
+}
+
+.list::-webkit-scrollbar-thumb {
+  background-color: rgb(82, 82, 82);
+}
 
 .item {
   padding: 7px;
@@ -16,6 +26,7 @@
   padding-inline-end: 35px;
   min-inline-size: 0;
   position: relative;
+  border-block-end: 1px solid var(--border-color, #77777780);
 }
 
 .item:hover button[data-remove-button] {
@@ -26,8 +37,4 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-}
-
-.item + .item {
-  border-block-start: 1px solid var(--border-color, #77777780);
 }
