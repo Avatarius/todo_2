@@ -38,7 +38,7 @@ function App() {
       setFilter(FilterType.Completed)
     },
     clear: () => {
-      setTodoList([]);
+      setTodoList(prevValue => prevValue.filter(item => !item.isCompleted));
     }
   };
 

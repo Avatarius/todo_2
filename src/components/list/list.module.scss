@@ -1,9 +1,9 @@
 .list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   font-size: 30px;
   max-inline-size: 402px;
+  min-block-size: 500px;
 }
 
 
