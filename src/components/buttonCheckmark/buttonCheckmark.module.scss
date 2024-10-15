@@ -1,0 +1,17 @@
+@import '../../styles/mixins/button.scss';
+.button {
+  @include button;
+  inline-size: 27px;
+  block-size: 27px;
+  border-radius: 100%;
+  border: 1px solid #888888bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.svg {
+  padding: 2px;
+  color: #00b745;
+}

@@ -1,0 +1,8 @@
+@import '../fonts/font.scss';
+@import './variables.scss';
+@import './reset.scss';
+
+.page {
+  background-color: var(--main-background-color, #000);
+  color: var(--main-text-color, #000);
+}

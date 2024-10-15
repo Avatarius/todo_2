@@ -1,0 +1,17 @@
+.form {
+  margin: 0;
+  padding: 0;
+}
+
+.input {
+  display: block;
+  box-sizing: border-box;
+  border: none;
+  border-block-end: 1px solid var(--border-color, #77777780);
+  border-start-start-radius: var(--border-radius, 5px);
+  border-start-end-radius: var(--border-radius, 5px);
+  padding: 7px;
+  font-family: inherit;
+  font-size: 32px;
+  appearance: none;
+}

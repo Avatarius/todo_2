@@ -1,0 +1,19 @@
+@import "../../styles/mixins/button.scss";
+
+.button {
+  position: absolute;
+  margin-inline-start: auto;
+  inline-size: 20px;
+  block-size: 20px;
+  inset-inline-end: 6px;
+  inset-block-start: 50%;
+  translate: 0 -50%;
+  color: rgba(0 0 0 / 0.5);
+  @include button;
+}
+
+.svg {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}

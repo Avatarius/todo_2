@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  max-inline-size: 402px;
+}
+
+
+.item {
+  padding: 7px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  gap: 15px;
+  padding-inline-end: 35px;
+  min-inline-size: 0;
+  position: relative;
+}
+
+.text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item + .item {
+  border-block-start: 1px solid var(--border-color, #77777780);
+}

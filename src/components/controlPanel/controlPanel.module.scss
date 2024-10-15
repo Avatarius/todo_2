@@ -1,0 +1,39 @@
+@import "../../styles/mixins/button.scss";
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 7px;
+  font-size: 14px;
+  padding-block: 10px;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  &:hover {
+
+  }
+  &__button {
+    @include button;
+    padding: 5px;
+    &:hover {
+      border: 1px solid #7777773a;
+    }
+    &_active {
+      border: 1px solid var(--border-color, #77777780);
+    }
+  }
+}
+
+.clear {
+  @include button;
+}
+
+.info {
+  display: block;
+}
