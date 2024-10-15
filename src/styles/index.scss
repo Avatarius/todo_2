@@ -3,6 +3,7 @@
 @import './reset.scss';
 
 .page {
-  background-color: var(--main-background-color, #000);
+  background-color: var(--main-background-color, #c7c3b7);
   color: var(--main-text-color, #000);
+  font-family: var(--font-family, sans-serif);
 }

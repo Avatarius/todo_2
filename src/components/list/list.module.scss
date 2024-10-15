@@ -24,9 +24,11 @@
   align-items: center;
   gap: 15px;
   padding-inline-end: 35px;
+  padding-block: 10px;
   min-inline-size: 0;
   position: relative;
   border-block-end: 1px solid var(--border-color, #77777780);
+  font-size: 25px;
 }
 
 .item:hover button[data-remove-button] {
