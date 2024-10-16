@@ -25,8 +25,9 @@ describe("[TodoList]", () => {
       .get("[data-testid=list] > li")
       .eq(0)
       .find("[data-testid=buttonCheckmark]");
-    btn.find("svg").should("have.css", "opacity", "0");
+    const svg = btn.find('svg');
+    svg.should("have.css", "opacity", "0");
     btn.click();
-    btn.find("svg").should("have.css", "opacity", "1");
+    svg.should("have.css", "opacity", "1");
   });
 });
