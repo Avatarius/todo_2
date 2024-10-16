@@ -3,7 +3,7 @@ import renderer from "react-test-renderer";
 import { expect, test, describe, jest } from "@jest/globals";
 import { List } from "./list";
 
-describe("Компонент <Input/>", () => {
+describe("Компонент <List/>", () => {
   const todos = [
     { text: "test1", isCompleted: false, id: "1" },
     { text: "test2", isCompleted: true, id: "2" },
