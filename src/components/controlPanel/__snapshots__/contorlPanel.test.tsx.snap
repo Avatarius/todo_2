@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Компонент <ControlPanel/> Рендер компонента 1`] = `
+<div>
+  <span>
+    3
+     items left
+  </span>
+  <div>
+    <button
+      className=""
+      onClick={[Function]}
+    >
+      All
+    </button>
+    <button
+      className=""
+      onClick={[Function]}
+    >
+      Active
+    </button>
+    <button
+      className=""
+      onClick={[Function]}
+    >
+      Completed
+    </button>
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    Clear completed
+  </button>
+</div>
+`;

@@ -11,7 +11,7 @@ function ButtonCheckmark(props: IButtonCheckmarkProps) {
   const { isComplated, onClick } = props;
 
   return (
-    <button type="button" className={styles.button} onClick={onClick}>
+    <button type="button" className={styles.button} onClick={onClick} data-testid='buttonCheckmark'>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 32 32"

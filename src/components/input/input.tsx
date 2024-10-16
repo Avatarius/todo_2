@@ -26,8 +26,8 @@ function Input(props: IInputProps) {
 
 
   return (
-    <form className={styles.form} onSubmit={handleSubmit}>
-      <input type="text" className={styles.input} placeholder='What needs to be done?' value={newTodo} onChange={handleChange}/>
+    <form className={styles.form} onSubmit={handleSubmit} data-testid='form'>
+      <input type="text" className={styles.input} placeholder='What needs to be done?' value={newTodo} onChange={handleChange} data-testid='input'/>
     </form>
   )
 }

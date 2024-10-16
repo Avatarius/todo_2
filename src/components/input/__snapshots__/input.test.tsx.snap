@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Компонент <Input/> Рендер компонента 1`] = `
+<form
+  data-testid="form"
+  onSubmit={[Function]}
+>
+  <input
+    data-testid="input"
+    onChange={[Function]}
+    placeholder="What needs to be done?"
+    type="text"
+    value="test"
+  />
+</form>
+`;

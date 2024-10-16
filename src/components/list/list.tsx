@@ -11,7 +11,7 @@ interface IListProps {
 
 function List({ todos, changeTodoStatus, removeTodo }: IListProps) {
   return (
-    <ul className={styles.list}>
+    <ul className={styles.list} data-testid='list'>
       {todos.map((todo) => {
         const {id, isCompleted} = todo;
         return (
