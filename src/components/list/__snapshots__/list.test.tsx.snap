@@ -80,3 +80,84 @@ exports[`Компонент <Input/> Рендер компонента 1`] = `
   </li>
 </ul>
 `;
+
+exports[`Компонент <List/> Рендер компонента 1`] = `
+<ul
+  data-testid="list"
+>
+  <li>
+    <button
+      data-testid="buttonCheckmark"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className=""
+        fill="currentColor"
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.16 28a3 3 0 0 1-2.35-1.13l-6.59-8.25a1 1 0 0 1 1.56-1.24l6.59 8.24a1 1 0 0 0 1.63-.06L27.17 4.44a1 1 0 1 1 1.66 1.12L14.67 26.67A3 3 0 0 1 12.29 28Z"
+        />
+      </svg>
+    </button>
+    <p>
+      test1
+    </p>
+    <button
+      data-remove-button={true}
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height="200"
+        viewBox="0 0 490 490"
+        width="200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M456.851 0 245 212.564 33.149 0 .708 32.337l211.961 212.667L.708 457.678 33.149 490 245 277.443 456.851 490l32.441-32.322-211.961-212.674L489.292 32.337z"
+        />
+      </svg>
+    </button>
+  </li>
+  <li>
+    <button
+      data-testid="buttonCheckmark"
+      onClick={[Function]}
+      type="button"
+    >
+      <svg
+        className=""
+        fill="currentColor"
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.16 28a3 3 0 0 1-2.35-1.13l-6.59-8.25a1 1 0 0 1 1.56-1.24l6.59 8.24a1 1 0 0 0 1.63-.06L27.17 4.44a1 1 0 1 1 1.66 1.12L14.67 26.67A3 3 0 0 1 12.29 28Z"
+        />
+      </svg>
+    </button>
+    <p>
+      test2
+    </p>
+    <button
+      data-remove-button={true}
+      onClick={[Function]}
+    >
+      <svg
+        fill="currentColor"
+        height="200"
+        viewBox="0 0 490 490"
+        width="200"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M456.851 0 245 212.564 33.149 0 .708 32.337l211.961 212.667L.708 457.678 33.149 490 245 277.443 456.851 490l32.441-32.322-211.961-212.674L489.292 32.337z"
+        />
+      </svg>
+    </button>
+  </li>
+</ul>
+`;

@@ -6,6 +6,12 @@
   max-inline-size: 402px;
   block-size: 550px;
   overflow-y: auto;
+
+  @media screen and (max-width: 600px) {
+    inline-size: 100%;
+    max-inline-size: unset;
+    min-inline-size: unset;
+  }
 }
 
 .list::-webkit-scrollbar {
