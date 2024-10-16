@@ -4,27 +4,11 @@ import { List } from "../list/list";
 import styles from "./app.module.scss";
 import { FilterType, ITodo } from "../../utils/types";
 import { ControlPanel } from "../controlPanel/controlPanel";
+import { initialData } from "../../utils/constants";
 
 function App() {
-  const tmp: ITodo[] = [
-    {
-      id: crypto.randomUUID(),
-      text: "Тестовое задание",
-      isCompleted: false,
-    },
-    {
-      id: crypto.randomUUID(),
-      text: "Прекрасный код",
-      isCompleted: true,
-    },
-    {
-      id: crypto.randomUUID(),
-      text: "Покрытие тестами",
-      isCompleted: false,
-    },
-  ];
   const [newTodo, setNewTodo] = useState<string>("");
-  const [todoList, setTodoList] = useState<ITodo[]>(tmp);
+  const [todoList, setTodoList] = useState<ITodo[]>(initialData);
   const [filter, setFilter] = useState<FilterType>(FilterType.All);
 
   const panelCallbacks = {
